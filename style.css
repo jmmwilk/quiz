@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+#scenapytania {
+  display: flex;
+  flex-direction: column;
+  border: red solid 1px;
+ }
+
+#question {
+  display:flex;
+  height: 150px;
+  min-width: 450px;
+  padding: 5px;
+  border: green solid 1px;
+  font-size: 60px;
+  font-family: Arial;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+#answersbox {
+  display:flex;
+  min-width: 450px;
+  border: green solid 1px;
+  font-size: 60px;
+  font-family: Arial;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+
+.dupa {
+  height: 60px;
+  width: 350px;
+  border: green solid 1px;
+  font-size: 40px;
+  font-family: Arial;
+  justify-content: center;
+  align-items: center;
+}
+
+#scenawynik {
+  display:none;
+  height: 150px;
+  min-width: 450px;
+  padding: 5px;
+  border: green solid 1px;
+  font-size: 60px;
+  font-family: Arial;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+#titlebox {
+  display:flex;
+  height: 150px;
+  min-width: 450px;
+  padding: 5px;
+  border: green solid 1px;
+  font-size: 60px;
+  font-family: Arial;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+#dzialybox {
+  display:flex;
+  height: 150px;
+  min-width: 450px;
+  padding: 5px;
+  border: green solid 1px;
+  font-size: 60px;
+  font-family: Arial;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
